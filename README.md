@@ -1,1 +1,1 @@
-# Newspaper
+# GraphHighlight
