@@ -26,7 +26,7 @@
 	function redirectToQualtrics() {
 		if (typeof startTime !== 'undefined') {
 			let params = getSpecificQueryParams();
-			let baseUrl = 'https://neuchatel.eu.qualtrics.com/jfe/form/SV_aXk4LbBY9BVvNie';
+			let baseUrl = 'https://neuchatel.eu.qualtrics.com/jfe/form/SV_a8Iy0axKqHN0vMq';
 			let timeSpent = calculateTimeOnSite();
 			if (timeSpent > 10){
 				params['timeSpent'] = timeSpent;
