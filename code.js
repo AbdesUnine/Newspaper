@@ -28,7 +28,7 @@
 			let params = getSpecificQueryParams();
 			let baseUrl = 'https://neuchatel.eu.qualtrics.com/jfe/form/SV_82OfGrQFhwimvUG';
 			let timeSpent = calculateTimeOnSite();
-			if (timeSpent > 10){
+			if (timeSpent > 30){
 				params['timeSpent'] = timeSpent;
 				// Add hover data to the params
 				let queryString = Object.keys(params).map(key => `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`).join('&');
